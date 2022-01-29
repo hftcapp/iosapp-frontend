@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "HFTC",
+    "slug": "HFTC",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "HFTC"
+}
