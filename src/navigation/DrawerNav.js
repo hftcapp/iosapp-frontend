@@ -4,16 +4,16 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import Home from "../screens/Home";
 import About from "../screens/About";
 import Contact from "../screens/Contact";
-import Bottomtab from "./Bottomtab";
+import JournalNav from "./JournalNav";
 
 const Drawer = createDrawerNavigator();
 
 const DrawerNav = () => {
   return (
     <Drawer.Navigator screenOptions={{ headerShown: false }}>
-      <Drawer.Screen name="Home" component={Bottomtab} />
-      <Drawer.Screen name="About" component={About} />
-      <Drawer.Screen name="Contact" component={Contact} />
+      <Drawer.Screen name="Home" component={Home} />
+      <Drawer.Screen name="Hair Journal" component={JournalNav} />
+      <Drawer.Screen name="Hair Profile" component={Contact} />
     </Drawer.Navigator>
   );
 };
